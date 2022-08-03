@@ -4,8 +4,7 @@
   "package": "io.github.adituv.byregot.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-  ],
-  "client": [
+    "DoubleEdgeMixin"
   ],
   "injectors": {
     "defaultRequire": 1
