@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "byregot",
+  "version": "${version}",
+  "name": "Byregot",
+  "description": "Bringing FFXIV game mechanics to Minecraft.  Ever wanted to double-edge?",
+  "authors": [
+    "AdituV"
+  ],
+  "contact": {
+    "website": "https://github.com/adituv/byregot/releases",
+    "repo": "https://github.com/adituv/byregot"
+  },
+  "license": "MIT",
+  "icon": "assets/byregot/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.adituv.byregot.client.ByregotClient"
+    ],
+    "main": [
+      "io.github.adituv.byregot.Byregot"
+    ]
+  },
+  "mixins": [
+    "byregot.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19.1"
+  }
+}
